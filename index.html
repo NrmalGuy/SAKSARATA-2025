@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAKSARATA TELERONA 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- <style>
+        .full-image {
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+            background-image: url('IMG SAKSA/DSCF1314 (1).jpg');
+            background-size: cover; /* Cover the entire container */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent repeating */
+        }
+    </style> -->
+    <!-- <style>
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF; /* Bootstrap primary color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    </style> -->
+    <header>
+        <nav>
+            <ul>
+
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="##event">Acara</a></li>
+                <li><img src="IMG SAKSA/logo_saksa-removebg-preview.png" width="120" height="120" alt="Deskripsi Gambar"></li>
+                <li><a href="##gallery">Galeri</a></li>
+                <li><a href="##contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    
+        <section id="home" class="hero">
+            <h1>Selamat Datang di</h1>
+            <h1> SAKSARATA TELERONA 2025</h1>
+            <br>
+            <p>Rayakan dua dekade keberadaan!</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+        <!-- <div>
+            <a href="#tickets" class="cta-button">Beli Tiket Sekarang!!!</a>
+        </div> -->
+
+        </section>
+       
+        
+
+    <!-- About Section -->
+    <section class="about" data-scroll>
+        <h2>Tentang Saksarata</h2>
+        <br>
+        <p>Saksarata adalah pementasan seni dan budaya terbesar yang menampilkan artis-artis musik ternama dan mengangkat kekayaan budaya Nusantara.</p>
+    </section>
+
+
+    <!-- Lineup Section -->
+    <section class="lineup" data-scroll>
+        <h2>Lineup Artis</h2>
+        <br>
+        <div class="artists">
+            <div class="artist-box" data-scroll></div>
+            <div class="artist-box" data-scroll></div>
+            <div class="artist-box" data-scroll></div>
+        </div>
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2>Galeri Saksarata dari Tahun ke Tahun</h2>
+        <div class="gallery-wrapper">
+            <div class="gallery-container">
+                <div class="gallery-item" style="background-image: url('IMG SAKSA/DSCF1314 (1).jpg');" data-scroll>
+                    <br>
+                    <span class="year">2023</span>
+                </div>
+                <div class="gallery-item" style="background-image: url('IMG SAKSA/DSCF1314 (1).jpg');" data-scroll>
+                    <br>
+                    <span class="year">2022</span>
+                </div>
+                <div class="gallery-item" style="background-image: url('IMG SAKSA/DSCF1314 (1).jpg');" data-scroll>
+                    <br>
+                    <span class="year">2021</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CTA Section -->
+    <section class="cta" data-scroll>
+        <h2>Tunggu Apa Lagi?</h2>
+        <br>
+        <p>Dapatkan tiketmu sekarang dan jadi bagian dari Saksarata!</p>
+        <br>
+        <br>
+        <button class="cta-button">Beli Tiket</button>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="IMG SAKSA/logo_saksa-removebg-preview.png" alt="Logo Saksarata" width="100">
+            </div>
+            <div class="footer-links">
+                <a href="#">Beranda I</a>
+                <a href="#event">Acara I</a>
+                <a href="#gallery">Galeri </a>
+                <br>    
+                <!-- <a href="#contact">Kontak</a> -->
+                
+            </div>
+            <br>     
+            <div class="footer-socials">
+                <h4>Email: saksarata23@gmail.com</h4>
+                <a href="#"><img src="icons/facebook.png" alt="Facebook" width="30"></a>
+                <a href="https://www.instagram.com/saksarata?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="" alt="Instagram" width="30"></a>
+                <a href="#"><img src="icons/twitter.png" alt="Twitter" width="30"></a>
+            </div>
+            <p class="footer-text">&copy; 2025 Saksarata. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        document.addEventListener("scroll", function() {
+            document.querySelectorAll("[data-scroll]").forEach((element) => {
+                const position = element.getBoundingClientRect().top;
+                if (position < window.innerHeight * 0.85) {
+                    element.classList.add("visible");
+                }
+            });
+        });
+    </script>
+
+    
+    </main>
+    <!-- <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <h3>SAKSARATA TELERONA</h3>
+                <p>Hubungi kami: saksarata23@gmail.com</p>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                    <a href="https://youtube.com" target="_blank">YouTube</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Tautan Berguna</h4>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#tickets">Beli Tiket</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SAKSARATA TELERONA. Semua hak dilindungi.</p>
+        </div>
+    </footer> -->
+</body>
+</html>
